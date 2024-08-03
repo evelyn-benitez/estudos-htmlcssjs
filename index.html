@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- Importante!! <!DOCTYPE html>: Declara o tipo do documento e a 
+versão do HTML que está sendo utilizada. 
+HTML5 é a versão mais recente. -->
+
+<html lang="en"> <!--Elemento raiz que engloba todo o 
+    conteúdo do documento. O atributo lang define o idioma.-->
+
+<head> <!--Contém metadados sobre o documento, como o conjunto de caracteres, 
+    título, e links para scripts e estilos.-->
+    
+    <meta charset="UTF-8"> <!-- Garante que seu documento use codificação de caracteres UTF-8, 
+    que oferece suporte a uma ampla variedade de caracteres de diferentes idiomas. 
+    Isso evita problemas com a exibição de caracteres e símbolos especiais. -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--Torna a página responsiva, o que significa que ela se adapta a diferentes tamanhos de tela, 
+    especialmente importante para dispositivos móveis. 
+    Isso melhora a experiência do usuário e a acessibilidade.-->
+    
+    <title>Iniciando estudos em HTML</title>
+     <!-- Aqui é o título da página, que aparece na aba do navegador-->
+
+</head>
+
+<body> <!--Contém todo o conteúdo visível da página, como textos, imagens, vídeos e links.-->
+
+    <h1>H1 é um cabeçalho bem grande</h1>  <!--Cabeçalhos, usados para títulos e subtítulos principais.-->
+    <h2>h2 é um cabeçalho grande</h2>
+    <h3>h3 é um cabeçalho meio grande</h3>
+    <h4>h4 é um cabeçalho médio</h4>
+    <h5>h5 é um cabeçalho pequeno</h5>
+    <h6>h6 é um cabeçalho ainda mais pequeno</h6>
+
+    <p>E aqui é um parágrafo </p> <!--Parágrafos, usados para agrupar blocos de texto-->
+    <br> <!-- <br> é um "pula linha"! -->
+    
+    <i> <!-- Elemento de negrito, que deixa a fonte "torta".-->
+        <u> <!-- Elemento de underline, que cria uma sublinhada.-->
+            <s> <!-- Elemento de sublinhado, que cria um traço horizontal.-->
+                Texto em negrito, sublinhado e em itálico!
+            </s>
+        </u>
+    </i>
+
+    <p>Este é um texto <em>enfatizado</em> e este é <strong>forte</strong>.</p>
+
+    <a href="https://www.example.com">Visite o Example</a> <!--Os links são usados para navegar para outras páginas 
+    ou seções da mesma página.-->
+        <br>
+        
+    <img src="caminho/para/imagem.jpg" alt="Descrição da Imagem"> <!--Adiciona uma imagem!-->
+
+    <!--Agora vamos ver sobre Listas Ordenadas haha-->
+    <ol> <!-- Listas ordenadas.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!--Agora vamos ver sobre Listas Desordenadas haha-->
+    <ul> <!-- Listas desordenadas.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!--Agora vamos ver sobre Divs e Semanas-->
+    <div> <!-- Divisões, usadas para agrupar conteúdo relacionado.-->
+        <h2>Div 1</h2>
+        <p>Conteúdo da Div 1</p>
+    </div>
+
+    <section> <!-- Seções, usadas para agrupar conteúdo relacionado e sem um título.-->
+        <h2>Section 1</h2>
+        <p>Conteúdo da Section 1</p>
+    </section>
+
+    <article> <!-- Artigos, usados para agrupar conteúdo relacionado e com um título.-->
+        <h2>Article 1</h2>
+        <p>Conteúdo do Article 1</p>
+    </article>
+
+
+    <form action="/submit-form" method="post"> <!-- Formulário, usado para capturar dados do usuário.-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required> <!-- required: Campo obrigatório.-->
+
+        <br>
+
+    <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <!-- required: Campo obrigatório.-->
+
+        <br>
+
+    <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea> <!-- required: Campo obrigatório.-->
+
+        <br>
+
+    <input type="submit" value="Enviar"> <!-- Botão de envio.-->
+    </form>
+
+    <footer> <!-- Rodapé, usado para conter informações sobre o conteúdo e o autor do site.-->
+        <p>Todos os direitos reservados &copy; 2024</p>
+    </footer>
+
+    
+</body>
+</html>
